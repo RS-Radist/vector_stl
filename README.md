@@ -1,9 +1,9 @@
 # vector_stl
 
-    1 explicit vector(const Allocator &a = Allocator());
-    2 explicit vector(size_type num, const T &val = T(), const Allocator &a = Allocator());
-    3 vector(const vector <T,Allocator> &ob);
-    4 template < class InIter> vector(InIter start, InIter end, const Allocator &a = Allocator());
+  + 1 explicit vector(const Allocator &a = Allocator());
+  + 2 explicit vector(size_type num, const T &val = T(), const Allocator &a = Allocator());
+  + 3 vector(const vector <T,Allocator> &ob);
+  + 4 template < class InIter> vector(InIter start, InIter end, const Allocator &a = Allocator());
     // == > < <= >= !=
   +  5 template <class InIter> void assign(InIter start, InIter end);
     // Помещает в вектор последовательность, определяемую параметрами start и end.
